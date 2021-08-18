@@ -1,0 +1,19 @@
+$gris: rgb(131,125,125);
+$verde: green;
+$blanco: whitesmoke;
+$tabla: honeydew;
+$titulo_principal: rgb(131, 118, 118);
+$titulo_secundario: rgb(92, 39, 39);
+$p: aliceblue;
+$noticias: rgb(0, 0, 0);
+$azul: rgb(83, 53, 218);
+$verdetabla: darkgreen;
+$footer: rgb(37, 37, 37);
+$sombra: #1b1f17;
+$size_h: 350px;
+$size_w: 1280px;
+@mixin orden($display, $direccion, $flex) {
+    display: $display;
+    flex-direction: $direccion;
+    flex-wrap: $flex;
+}

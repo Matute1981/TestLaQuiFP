@@ -1,0 +1,17 @@
+@import "pages scss/variables.scss";
+@import "pages scss/etiquetas.scss";
+@import "pages scss/clases.scss";
+@import "pages scss/id.scss";
+@import "pages scss/efecto.scss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+}
+body{
+    font-family: 'Bona Nova', serif;
+}

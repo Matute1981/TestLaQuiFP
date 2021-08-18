@@ -1,0 +1,74 @@
+a{
+    @extend i;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    transition: all 2s;
+}
+h1{
+    color: $titulo_principal;
+    text-align: center;
+    margin: 2.5%;
+}
+h2{
+    color: $titulo_secundario;
+    text-align: center;
+}
+h3{
+    font-style: italic;
+    font-weight: bold;
+    color: $blanco;
+}
+p{
+    color: $p;
+    text-align: center;
+}
+table{
+    color: $tabla;
+    margin-bottom: 3%;
+    text-align: center;
+}
+article{
+    // display: inline-block;
+    border: $gris;
+    width: 32%;
+    height: 32%;
+    text-align: center;
+}
+th{
+    color: $verdetabla;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 3, 3);
+    padding: auto;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    a{
+        img{
+        width: 120px;
+    } 
+    } 
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: $footer;
+    width: 100%;
+}
+aside{
+    display: block;
+    justify-content: center;
+    width: 100%;
+}
+input{
+    display: block;
+    margin: 8px;
+    border-radius: 5px;
+    transition: all 2s;
+}
+i{
+    font-size: 2rem;
+}

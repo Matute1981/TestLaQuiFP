@@ -1,0 +1,24 @@
+@keyframes efecto_fondo{
+    0%{ width: 120vh;}
+    25%{ width: 100vh;}
+    50%{ width: 120vh; background-color: rosybrown;}
+    75%{ width: 100vh;}
+    100%{ width: 120vh; background-color: silver;}
+}
+.not{
+    &:hover{
+    transform: scale(2);
+    height: 100%;
+    width: 100%;}
+}
+    
+input{
+    &:focus{
+    width: 30%;
+    font-size: 2rem;}
+}
+a{
+    &:hover{
+        transform: scale(2);
+    }
+}
